@@ -1,0 +1,206 @@
+#Top-Card {
+   background-color: rgba(255, 255, 255, 0.95);
+   margin: auto;
+   padding: 20px;
+   width: 700px;
+   height: 95px;
+   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   border-bottom: 30px;
+   text-align: center;
+   vertical-align: middle; 
+
+ 
+
+
+
+}
+
+.Card-White {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);	
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+    border-width: 10px;
+    margin: 15px auto;
+    font-size: 19px;
+    border-bottom: 30px;
+    border-top: 30px;
+    font-weight: normal;
+
+
+
+
+}
+
+body{
+	background: rgb(240, 240, 240);
+	color: rgb(55, 55, 55);
+	font-family: corbel light;
+	background-image: url(images/background.jpg) ;
+	border: 30px;
+
+
+}
+H1{
+	color: rgba(100, 100, 100, 1.0);
+	font-family: sans-serif;
+	letter-spacing: 8px;
+	font-size: 38px;
+	font-weight: normal;
+	margin: auto;
+	text-shadow: rgba(0, 0, 0, 0.5);
+
+
+}
+H2{
+	color: rgba(50,50, 50, 0.8);
+	letter-spacing: 2px;
+	font-size: 28px;
+	font-weight: bold;
+	margin: 20px auto;
+	text-align: center;
+
+
+}
+
+
+a{ 
+	color: rgba(225, 225, 225, 0.0);
+	transition: color 0.5s ease;
+
+
+}
+a:Hover {
+  
+  transition: color 0.5s ease;
+	width: 220px;
+	height: 600px;
+
+}
+
+p{
+
+	font-size: 22px;
+	font-weight: 180px;
+}
+
+h4{
+
+   font-weight: 20;
+   margin: 0px;
+   font-family: sans-serif;
+   font-size: 18px;
+   color: #704419;
+
+
+
+}
+
+.img-circle {
+	border-radius: 50%; 
+	box-shadow: 5px 5px 3px rgba(30, 30, 30, 0.5);
+	margin-bottom: 4px;
+}
+
+Ol{
+	font-family: sans-serif;
+
+	letter-spacing: 2px;
+}
+
+
+.Books {
+    box-shadow: 5px 5px 3px rgba(30, 30, 30, 0.5);
+
+}
+
+#book-box {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 5px;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);	
+    width: 730px;
+    height: 670px;
+    border-radius: 10px;
+    border-width: 10px;
+    margin: 15px auto;
+    font-size: 19px;
+    border-bottom: 30px;
+    border-top: 30px;
+
+}
+
+#Photo-box {
+	background: rgba(255, 255, 255, 0.90);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);	
+    width: 300px;
+    height: 340px;
+    border: 5px;
+    margin: 10px;
+    border-top: 30px;
+    font-weight: 20;
+    vertical-align: middle;
+    text-align: center;
+
+
+}
+
+#Book1 {
+ width: 100px;
+ height: 140px;
+ transition: transform .3s;
+
+
+}
+#Book1:hover {
+ transform: scale(1.9);  
+}
+
+.Books {
+  padding: 0px;
+  transition: transform .3s;
+  width: 70px;
+  height: 95px;
+  margin: 0 auto;
+}
+
+.Books:hover {
+  transform: scale(2.7);
+}
+
+
+.Button-Brown {
+  border-radius: 8px;
+  font-size: 20Px;
+}
+
+.Button-Brown:hover {
+  transform: scale(1.2);
+  transition: .8s;
+
+}
+
+
+@media (max-width: 960px) {
+ 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+ 
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+ 
+  .container {
+    width: 300px;
+   }
+}
+
